@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    font-family:  "Orbitron";
+}
+
+.list{
+    display: flex;
+    border: black solid 1px;
+}
+
+.list > a{
+    background-color: rgba(255, 255, 255, 0.402);
+    border: solid black 1px;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#navigation{
+    background-color: #87CEFA;
+}
+
+#nav-logo{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-right: auto;
+    border: solid black 1px;
+    border-radius: 50%;
+}
